@@ -1,0 +1,22 @@
+<div class="row">
+    <div class="col-12">
+        <button routerLink = "new" class="btn btn-success">New Recipe</button>
+    </div>
+</div>
+<hr>
+<div class="row" *ngIf = "isFetching">
+    <div class="col-12">
+        Loading...
+        <div class="spinner-border text-success" role="status">
+            <span class="sr-only">Loading...</span>
+          </div>
+    </div>
+</div>
+<div class="row" *ngIf = "!isFetching">
+    <div class="col-12">
+       <div class="list-group">
+           <app-recipe-item *ngFor = "let recipeElement of recipeList; let ind = index" [recipe] = "recipeElement" [index] = "ind"></app-recipe-item>
+       </div>
+    </div>
+</div> 
+

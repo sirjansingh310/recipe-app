@@ -1,0 +1,28 @@
+.backdrop{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh; /* 100% will be with respect to the container, vh is viewport height, that is device height */ 
+    width: 100vw;/*viewport width*/
+    background: rgba(0, 0, 0, 0.75);
+    z-index: 50;
+}
+
+.alert-box{
+    position: fixed;
+    top: 30vh;
+    left: 25vw;
+    width: 50vw;
+    background: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    z-index: 100;
+    padding: 25px;
+}
+
+.alert-box-actions{
+    float: right;
+}
+
+.alert-box-message{
+    float: left;
+}
