@@ -1,7 +1,7 @@
 
 # RecipeApp
 A simple modern web app created using Angular and Firebase to create, edit, store and manage your recipes. Created as part of Udemy Course
-##Check it out here:
+## Check it out here:
 https://angularcourse-sirjansingh310.web.app/
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.21.
